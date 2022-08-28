@@ -26,5 +26,9 @@ console.log(img22);
 // 8. Đếm số từ trong đoạn văn p.bio xem có bao nhiêu từ Ba (không phân biệt chữ hoa chữ
 // thường) và thêm nội dung vào thẻ p.num-of-words bên dưới thông báo kết quả dạng Ở đoạn
 // văn trên có xx từ 'Ba'
+
+const p = document.querySelector(".paca")
+
+
 // 9. Thêm một hàng mới vào table (tham khảo API của HTMLTableElement)
 // 10. Thêm một cột (ô) mới vào hàng vừa tạo có nội dung Thầy giáo Ba siêu cấp đẹp trai
