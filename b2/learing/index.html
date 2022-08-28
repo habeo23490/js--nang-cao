@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+    window.onload = function () {
+        console.log("1234");
+        document.getElementById("app1").style.background = "blue";
+    }
+
+    window.onresize = function () {
+        console.log("width",window.innerWidth);
+        console.log("height", window.innerHeight);
+    }
+
+    const selectBox = document.getElementById("select");
+    selectBox.addEventListener("change",function () {
+        console.log(select.value);
+    })
+
+
+    </script>
+</head>
+<body>
+
+
+    
+    <div id="app"></div>
+
+    <button onclick ="click1" >click em đi</button>
+
+    <div id="app1">
+        <section class="section section-newest">
+            <div class="section-header">
+                <h2 class="section-heading">Tập mới nhất</h2>
+            </div>
+
+            <div class="section-content">
+                <div class="list-movie">
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="java2.js"></script>
+</body>
+</html>
