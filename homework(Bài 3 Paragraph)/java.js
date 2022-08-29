@@ -8,12 +8,12 @@ const arr = string.split(" ");
 
 
    
-    for(let key in arr) {
-        if(key.length > 8) {
-            return 
-        }
-       break ; 
-    }
+    // for(let key in arr) {
+    //     if(key.length > 8) {
+    //         return 
+    //     }
+    //    break ; 
+    // }
     
 
 
@@ -36,13 +36,15 @@ document.querySelector(".worrd").after(div);
 
 
 // Thay thế các ký hiệu ? => 🤔, ! => 😲
-for(let key in arr) {
-    if(key == "?") {
-        return key = "🤔";
-    }
-    else if (key ==  "!" ) {
-        return key = "😲";
-    }
-    break ;
 
-}
+
+// for(let key in arr) {
+//     if(key == "?") {
+//         return key = "🤔";
+//     }
+//     else if (key ==  "!" ) {
+//         return key = "😲";
+//     }
+//     break ;
+
+// }
