@@ -10,10 +10,10 @@
 // Nếu counter < 0 có màu red
 
 
-const count1 = document.querySelector(".btn-container");
+const count1 = document.querySelectorAll(".btn-container");
 let x = 0 ; 
 let count2 = count1.querySelector(".prevBtn")
-function count2(y) {
+function color(y) {
     y++;
 }
 console.log(count2(0));
