@@ -11,20 +11,25 @@
 
 
 const count1 = document.querySelectorAll(".btn-container");
-let x = 0 ; 
+
 let count2 = count1.querySelector(".prevBtn")
-function color(y) {
-    y++;
-}
-console.log(count2(0));
-
-
-
-
-
-
 let count3 = count1.querySelector(".nextBtn")
-console.log(count3);
+
+
+count2.onclick = function () {
+    count1.textContent = +count1.textConten + 1 ;
+}
+count3.onclick = function () {
+    count1.textContent = +count1.textConten - 1 ;}
+
+
+
+    //////////////////////////////////////////////
+
+
+
+
+
 
 
 

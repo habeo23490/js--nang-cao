@@ -1,8 +1,25 @@
 // Highlight tất cả các từ có độ dài lớn hơn hoặc bằng 8 ký tự trong đoạn văn (background = “yellow”)
-const string = document.querySelector("p").innerHTML ;
+const text = document.querySelector("p").innerHTML ;
 console.log(string);
-const arr = string.split(" ");
-    console.log(arr);
+const words = text.split(" ");
+ const replace = words.map( (w) => {
+    const punc =w.[w.length-1];
+
+    if (isAlphabe(punc)) {
+        return w.length >= 0 
+        ? `<span style="background-color:yellow;" > ${w} </span>`
+        : w ;
+       
+    }
+    else {
+            
+    }
+ })
+
+ function isAlphabe(char) {
+    return ("a" <= char && char <= "z" ) || ("A" <= char && char <= "Z") ;
+ }
+   
 
     
 
@@ -48,3 +65,10 @@ document.querySelector(".worrd").after(div);
 //     break ;
 
 // }
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
